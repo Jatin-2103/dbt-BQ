@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: Dataset1
+    database: dbt-learn-443507  # The BigQuery project
+    schema: dbt_jxyz  # The schema (dataset) name
+    tables:
+      - name: RawTable1  # The table you want to reference
+        columns:
+          - name: Account  # Column names you want to describe (optional)
+            description: "Description of column1"
+          - name: Order Number  # Another column
+            description: "Description of column2"
+          # Add other columns as needed
