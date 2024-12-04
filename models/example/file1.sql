@@ -1,0 +1,1 @@
+SELECT * FROM `dbt-learn-443507.dbt_jxyz.file1`

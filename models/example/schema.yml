@@ -19,3 +19,10 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: file1
+      description: "First Sql_model"
+      columns:
+        - name: Order Number
+          tests:
+            - unique
+            - not_null
